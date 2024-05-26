@@ -273,5 +273,6 @@ def average_rebounds_by_shoe_brand():
     'Adidas': adidas_float,
     'Puma': puma_float,
     'Jordan': jordan_float,
-}
-    print(shoe_dict)
+    }
+    for k, v in shoe_dict.items():
+        print(f'{k}: ', "{:.2f}".format(v))
